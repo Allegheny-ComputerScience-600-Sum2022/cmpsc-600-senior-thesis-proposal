@@ -21,11 +21,14 @@ hierarchy and syntax; GitHub Actions will automatically create a PDF from the
 repository to learn how to properly build and release this PDFs.
 
 Including references throughout requires a specific pseudo-Markdown tag, 
-demonstrated
-in the following blockquote. (Inspect the `proposal.md` file to see the format.)
+demonstrated in the following blockquote. (Inspect the `proposal.md` file to 
+see the format.)
 
 > A citation, when included correctly, will appear as it does at the end of this
 > sentence. [@plaat1996research]
+
+These sources must be added in `bibtex` format to the `references.bib` file for
+citation and referencing to occur.
 
 Two things specific to this template to also keep in mind:
 
