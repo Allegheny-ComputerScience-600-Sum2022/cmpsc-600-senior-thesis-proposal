@@ -14,7 +14,6 @@ logo: 'images/logo'
 # Bibliography
 csl: https://www.zotero.org/styles/journal-of-the-acm # See https://www.zotero.org/styles for more styles.
 bibliography: references.bib # See https://github.com/jgm/pandoc-citeproc/blob/master/man/pandoc-citeproc.1.md for more formats.
-biblio-title: "References"
 suppress-bibliography: false
 link-citations: true
 color-links: true # See https://ctan.org/pkg/xcolor for colors
