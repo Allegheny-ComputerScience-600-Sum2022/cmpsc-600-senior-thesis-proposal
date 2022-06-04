@@ -1,3 +1,6 @@
+# This config file is based on the approach used by:
+# https://maehr.github.io/academic-pandoc-template/
+
 # Project-specific values
 title: 'Senior Thesis Proposal'
 author: 'Student Name'
