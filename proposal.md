@@ -52,7 +52,7 @@ and technical diagrams.
 
 # Method of approach
 
-This section should answer the ``how'' question - how will you perform the 
+This section should answer the "how" question - how will you perform the 
 proposed research. It should also describe the feasibility study you have 
 conducted to demonstrate that your project is feasible. Use technical diagrams, 
 equations, algorithms, and paragraphs of text to describe the research that you 
