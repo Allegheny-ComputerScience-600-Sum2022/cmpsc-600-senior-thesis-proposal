@@ -74,8 +74,13 @@ remember that you should aim to complete the project before the middle of March.
 # Conclusion
 
 Provide a summary of your proposed research and suggest the impact that it may 
-have on the discipline of computer science. If possible, you may also suggest 
-some areas for future research.
+have on the discipline of computer science. In addition, this section should
+discuss potential ethical implications or harms which arise from pursuing or
+implementing this project. This is your opportunity to think ahead and
+contemplate potential misuse or other impacts that any project implies -- no 
+matter how seemingly benign.
+
+If possible, you may also suggest some areas for future research.
 
 # References
 
