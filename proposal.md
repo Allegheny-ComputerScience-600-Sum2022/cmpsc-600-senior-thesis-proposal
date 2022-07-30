@@ -30,11 +30,36 @@ see the format.)
 These sources must be added in `bibtex` format to the `references.bib` file for
 citation and referencing to occur.
 
+To label a figure (i.e. an image), referencing the image using correct Markdown
+will automatically caption the figure:
+
+```markdown
+![Label](images/IMAGE_NAME.png)
+```
+
 Two things specific to this template to also keep in mind:
 
 1. It is your responsibility to remove this description section before building
 the PDF version you plan to defend.
 2. References _will only appear if cited correctly_ in the text
+
+## Note on `LaTeX` commands
+
+Documents may include specific `LaTeX` commands _in Markdown_. To render these, surround the commands
+with markup denoting `LaTeX`. For example:
+
+```
+Checkmark character:   $\checkmark$
+Superscript character: $^{\dag}$
+``` 
+
+If using a special package not included in the template, add the desired `LaTeX`
+package or command/macro to the `header-includes` property in [config.yaml](config.yaml).
+
+Should this package not be included in the environment shipped with this template,
+you may also need to add the package to the [GitHub Actions Workflow](.github/workflows/main.yml).
+
+Direct any questions about issues to your first reader.
 
 # Introduction
 
