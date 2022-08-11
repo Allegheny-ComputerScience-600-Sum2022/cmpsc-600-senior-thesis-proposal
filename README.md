@@ -1,5 +1,7 @@
 # CMPSC 600: Senior Thesis Proposal starter
 
+[![Release Senior Thesis Proposal](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml)
+
 This repository contains the starter for the Senior Thesis Proposal document. This
 document compiles using GitHub Actions; students should write the entirety of their
 document using the [abstract.md](abstract.md) and [proposal.md](proposal.md) files.
