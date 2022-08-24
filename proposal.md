@@ -1,17 +1,14 @@
 # Template description
 
 Your training in the conduct of research includes learnining to prepare a 
-concise, 
-rigorous, scholarly thesis proposal; you will also present it. While There is no
-strict length requirement for the senior thesis proposal, faculty anticipate 
-that 
-most students will need about twenty pages of text to adequately explain the 
+concise, rigorous, scholarly thesis proposal; you will also present it. While There 
+is no strict length requirement for the senior thesis proposal, faculty anticipate 
+that  most students will need about twenty pages of text to adequately explain the 
 motivation and goals of their project, review the relevant literature, and 
 describe the feasibility of the proposed work. 
 
 The template specifies various settings in the `config.yaml` file included in 
-the
-repository. Change the appropriate values under the `Project-specific values` 
+the repository. Change the appropriate values under the `Project-specific values` 
 heading. Changing other values outside of that section may cause the project to
 fail to build. **Modify these values at your own risk.**
 
@@ -20,15 +17,15 @@ hierarchy and syntax; GitHub Actions will automatically create a PDF from the
 `abstract.md` and `proposal.md` files. Consult the `README` of the proposal
 repository to learn how to properly build and release this PDFs.
 
-Including references throughout requires a specific pseudo-Markdown tag, 
-demonstrated in the following blockquote. (Inspect the `proposal.md` file to 
-see the format.)
+## Citations and references
+
+Including references throughout requires a specific pseudo-Markdown tag, demonstrated
+in the following blockquote. (Inspect the `thesis.md` file to see the format.)
 
 > A citation, when included correctly, will appear as it does at the end of this
 > sentence. [@plaat1996research]
 
-These sources must be added in `bibtex` format to the `references.bib` file for
-citation and referencing to occur.
+## Labeling figures
 
 To label a figure (i.e. an image), referencing the image using correct Markdown
 will automatically caption the figure:
@@ -36,6 +33,22 @@ will automatically caption the figure:
 ```markdown
 ![Label](images/IMAGE_NAME.png)
 ```
+
+## Labeling tables
+
+To provide a label for a table, write a short caption for the table and prefix the caption
+with `Table:` as in the example below:
+
+```
+Table: A two-row table demonstrating tables
+
+|Row number | Description |
+|:----------|:------------|
+|1          |Row 1        |
+|2          |Row 2        |
+```
+
+## Other template information
 
 Two things specific to this template to also keep in mind:
 
@@ -60,6 +73,7 @@ Should this package not be included in the environment shipped with this templat
 you may also need to add the package to the [GitHub Actions Workflow](.github/workflows/main.yml).
 
 Direct any questions about issues to your first reader.
+
 
 # Introduction
 
